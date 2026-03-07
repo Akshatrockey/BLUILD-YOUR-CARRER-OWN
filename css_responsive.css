@@ -1,0 +1,88 @@
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .hero {
+        padding: 50px 20px;
+    }
+
+    .hero .container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero-image i {
+        font-size: 5rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .features h2,
+    .categories h2,
+    .how-it-works h2 {
+        font-size: 2rem;
+    }
+
+    .features-grid,
+    .categories-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .steps {
+        flex-direction: column;
+    }
+
+    .step-arrow {
+        transform: rotate(90deg);
+    }
+
+    .cta h2 {
+        font-size: 1.8rem;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    .feature-card i {
+        font-size: 2rem;
+    }
+
+    .category-card {
+        padding: 25px 15px;
+    }
+
+    .cta p {
+        font-size: 1rem;
+    }
+}
